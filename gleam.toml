@@ -23,7 +23,6 @@ lustre_dev_tools = ">= 2.3.1 and < 3.0.0"
 
 [tools.lustre.bin]
 bun = "system"
-# tailwindcss = "system"
 tailwindcss = "./node_modules/.bin/tailwindcss"
 
 [tools.lustre.html]

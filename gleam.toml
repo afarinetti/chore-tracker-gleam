@@ -6,6 +6,10 @@ description = "Prototype chore tracker implementation using Gleam/Lustre/DaisyUI
 licences = ["AGPL-3.0-or-later"]
 repository = { type = "github", user = "afarinetti", repo = "https://github.com/afarinetti/chore-tracker-gleam" }
 
+[javascript]
+typescript_declarations = true
+runtime = "deno"
+
 [dependencies]
 gleam_stdlib = ">= 0.44.0 and < 2.0.0"
 lustre = ">= 5.4.0 and < 6.0.0"

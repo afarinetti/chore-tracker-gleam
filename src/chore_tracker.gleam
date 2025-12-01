@@ -60,12 +60,24 @@ fn view(model: Model) -> Element(Msg) {
   let count = int.to_string(model)
 
   html.div([], [
-    html.button([attribute.class("btn"), event.on_click(UserClickedDecrement)], [
-      html.text("-"),
-    ]),
+    html.button(
+      [
+        attribute.class("btn btn-secondary"),
+        event.on_click(UserClickedDecrement),
+      ],
+      [
+        html.text("-"),
+      ],
+    ),
     html.p([], [html.text("Count: "), html.text(count)]),
-    html.button([attribute.class("btn"), event.on_click(UserClickedIncrement)], [
-      html.text("+"),
-    ]),
+    html.button(
+      [
+        attribute.class("btn btn-secondary"),
+        event.on_click(UserClickedIncrement),
+      ],
+      [
+        html.text("+"),
+      ],
+    ),
   ])
 }

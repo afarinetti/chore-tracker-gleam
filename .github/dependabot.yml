@@ -7,9 +7,9 @@ updates:
     schedule:
       interval: "weekly"
 
-  # # Enable version updates for mix (erlang, elixir, gleam, etc.)
-  # - package-ecosystem: "mix"
-  #   directory: "/"
-  #   # Check for updates once a week
-  #   schedule:
-  #     interval: "weekly"
+  # Enable version updates for github actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    # Check for updates once a week
+    schedule:
+      interval: "weekly"

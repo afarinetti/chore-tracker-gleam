@@ -3,3 +3,9 @@ erlang = "28"
 gleam = "1.13"
 rebar = "3"
 bun = "latest"
+
+[tasks.dev]
+run = 'gleam run -m lustre/dev start'
+
+[tasks.gh-action-push]
+run = 'act push'

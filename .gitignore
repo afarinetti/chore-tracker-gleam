@@ -9,3 +9,6 @@ erl_crash.dump
 
 # JS/TS stuff
 /node_modules
+
+# local mise config
+.mise.local.toml
